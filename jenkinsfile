@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'git remote add origin https://github.com/Premkumar-Patil001/portfolio.git', branch: 'main'
+                git url: '  https://github.com/Premkumar-Patil001/portfolio.git', git branch: 'main'
             }
         }
 
